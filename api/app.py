@@ -10,8 +10,5 @@ def create_app(name):
     app.config.load_extensions()
     return app
 
-def test():
-    pass
-
 if __name__ == '__main__':
     create_app(__name__).run()
